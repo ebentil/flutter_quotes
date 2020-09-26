@@ -27,6 +27,7 @@ class _QuoteListState extends State<QuoteList> {
         ),
         body: Column(
           children: quotes.map((quote) => Text(quote)).toList(),
+
           // children: quotes.map((quote) {
           //   return Text(quote);
           // }).toList(),
